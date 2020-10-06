@@ -54,7 +54,7 @@ function checaVencedor(){
         return;   
     }
     if(checaSequencia(quadrado1,quadrado4,quadrado7)){
-        mudarQuadrado(quadrado1, quadrado4, uadrado7);
+        mudarQuadrado(quadrado1, quadrado4, quadrado7);
         mudarVencedor(quadrado4);
         return;   
     }
